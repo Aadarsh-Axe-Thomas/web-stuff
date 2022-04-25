@@ -1,0 +1,128 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-color: white;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+		}
+
+.menubar{
+	background-color:purple;
+	text-align: center;
+}
+
+
+.menubar ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+.menubar ul li{
+	width: 100px;
+	margin: 15px;
+	padding: 15px;
+	border-radius:2px;
+	transition: 1.5s;
+}
+
+.menubar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.active{
+	background-color: #ff2233;
+	border-radius:15px;
+}
+
+
+.yello:hover{
+	background-color: yellow;
+	border-radius:50px;
+}
+.yello2:hover{
+	background-color: #06FE14;
+	border-radius:50px;
+}
+.yello3:hover{
+	background-color: blue;
+	border-radius:50px;
+}
+
+.header{
+	min-height: 10vh;
+	background-image:linear-gradient(#8D39819C, #8D39819C),
+	url(One-Piece-MacBook-Wallpaper-HD.png);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 200px;
+
+}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+
+}
+
+.row{
+	margin-top: 5%;
+	padding: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.here{
+	margin-top: auto;
+	padding: 100px;
+	text-align: center;
+	width: 80%;
+	box-shadow: 50px;
+}
+.col{
+	color: white;
+	background-image:linear-gradient(#8D39819C, #8D39819C),
+	url(https://i0.wp.com/www.tvseasonspoilers.com/wp-content/uploads/2022/01/One-Piece-Chapter-1037-Release-Date.jpg?w=1024&ssl=1);
+	background-position: center;
+	background-size: cover;
+	flex-basis: 31%;
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+h2{
+	margin: 20px;
+}
+p{
+	margin:20px;
+}
+
+.twocol{
+	color: white;
+	background-image:linear-gradient(#EAA71799, #EAA71799),
+	url(https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2020/10/One-Piece-Luffy-King-of-Pirates.jpg);
+	background-position: center;
+	background-size: cover;
+	flex-basis: 31%;
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+
+.threecol{
+	color: white;
+	background-image:linear-gradient(#17A6EA85, #17A6EA85),
+	url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYBeTYM0wSrVLjeo18lP5-KrVbKETYDgBuA&usqp=CAU);
+	background-position: top;
+	background-size: cover;
+	flex-basis: 31%;
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+
+
+
