@@ -124,5 +124,16 @@ p{
 	box-sizing: border-box;
 }
 
-
+.col:hover{
+	box-shadow: 0px 0px 70px 0px #FBAA12;
+	cursor: pointer;
+}
+.twocol:hover{
+	box-shadow: 0px 0px 70px 0px #009DFE;
+	cursor: pointer;
+}
+.threecol:hover{
+	box-shadow: 0px 0px 70px 0px #FE0013;
+	cursor: pointer;
+}
 
