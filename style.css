@@ -54,7 +54,7 @@ body{
 
 .header{
 	min-height: 10vh;
-	background-image:linear-gradient(#8D39819C, #EF9C16),
+	background-image:linear-gradient(#8D39819C, #EF9C16B3),
 	url(One-Piece-MacBook-Wallpaper-HD.png);
 	background-size: cover;
 	background-position: center;
@@ -94,7 +94,7 @@ h1{
 	flex-basis: 31%;
 	border-radius: 15px;
 	box-sizing: border-box;
-	transition:1s;
+	transition:0.7s;
 }
 h2{
 	margin: 20px;
@@ -112,7 +112,7 @@ p{
 	flex-basis: 31%;
 	border-radius: 15px;
 	box-sizing: border-box;
-	transition:1s;
+	transition:0.7s;
 }
 
 .threecol{
@@ -124,7 +124,7 @@ p{
 	flex-basis: 31%;
 	border-radius: 15px;
 	box-sizing: border-box;
-	transition:1s;
+	transition:0.7s;
 }
 
 .col:hover{
