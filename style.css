@@ -5,7 +5,7 @@
 body{
 	background-color: white;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: trebuchet ms;
 	
 		}
 
@@ -54,7 +54,7 @@ body{
 
 .header{
 	min-height: 10vh;
-	background-image:linear-gradient(#8D39819C, #EF9C16B3),
+	background-image:linear-gradient(#8D39819C, #E6A620DE),
 	url(One-Piece-MacBook-Wallpaper-HD.png);
 	background-size: cover;
 	background-position: center;
@@ -80,7 +80,7 @@ h1{
 }
 .here{
 	margin-top: auto;
-	padding:300px 200px 100px 0px;
+	padding:350px 200px 200px 0px;
 	text-align: center;
 	width: 100%;
 	background-image: url(https://i.redd.it/0em9dqfi3sq61.jpg);
@@ -88,6 +88,7 @@ h1{
 	background-position: center;
 	color: black;
 	text-shadow: 0px 0px 15px #ffffff; 
+
 }
 .col{
 	color: white;
@@ -98,7 +99,7 @@ h1{
 	flex-basis: 31%;
 	border-radius: 15px;
 	box-sizing: border-box;
-	transition:0.7s;
+	transition: 0.5s;
 }
 h2{
 	margin: 20px;
@@ -116,7 +117,7 @@ p{
 	flex-basis: 31%;
 	border-radius: 15px;
 	box-sizing: border-box;
-	transition:0.7s;
+	transition: 0.5s;
 }
 
 .threecol{
@@ -128,9 +129,8 @@ p{
 	flex-basis: 31%;
 	border-radius: 15px;
 	box-sizing: border-box;
-	transition:0.7s;
+	transition: 0.5s;
 }
-
 .col:hover{
 	box-shadow: 0px 0px 70px 0px #FBAA12;
 	cursor: pointer;
